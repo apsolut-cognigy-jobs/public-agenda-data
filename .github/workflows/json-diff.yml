@@ -1,0 +1,27 @@
+name: JSON Diff Checker
+
+on:
+  pull_request:
+    paths:
+      - '**.json'  # Runs only if JSON files are changed
+
+jobs:
+  json-diff:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get JSON diff
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.ref }}
+          DIFF=$(git diff origin/${{ github.event.pull_request.base.ref }} -- '*.json')
+          if [[ -n "$DIFF" ]]; then
+            echo "### 📝 JSON Changes Detected:" >> $GITHUB_STEP_SUMMARY
+            echo '```diff' >> $GITHUB_STEP_SUMMARY
+            echo "$DIFF" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ No JSON changes found." >> $GITHUB_STEP_SUMMARY
+          fi
