@@ -13,15 +13,37 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Get JSON diff
+      - name: Fetch Base Branch
+        run: git fetch origin ${{ github.event.pull_request.base.ref }}
+
+      - name: Get JSON Diff
+        id: json_diff
         run: |
-          git fetch origin ${{ github.event.pull_request.base.ref }}
-          DIFF=$(git diff origin/${{ github.event.pull_request.base.ref }} -- '*.json')
+          DIFF=$(git diff origin/${{ github.event.pull_request.base.ref }} -- '*.json' || echo "No changes detected.")
           if [[ -n "$DIFF" ]]; then
             echo "### 📝 JSON Changes Detected:" >> $GITHUB_STEP_SUMMARY
             echo '```diff' >> $GITHUB_STEP_SUMMARY
             echo "$DIFF" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "DIFF_FOUND=true" >> $GITHUB_ENV
+            echo "$DIFF" > json_diff.txt
           else
             echo "✅ No JSON changes found." >> $GITHUB_STEP_SUMMARY
+            echo "DIFF_FOUND=false" >> $GITHUB_ENV
           fi
+
+      - name: Comment JSON Diff on PR
+        if: env.DIFF_FOUND == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.AGENDA_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const diff = fs.readFileSync('json_diff.txt', 'utf8');
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `### 📌 JSON Changes Detected:\n\`\`\`diff\n${diff}\n\`\`\``
+            });
