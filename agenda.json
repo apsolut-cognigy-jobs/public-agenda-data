@@ -6,19 +6,21 @@
       "sessions": [
         {
           "from": null,
-          "to": "8:30",
+          "to": "08:30",
           "title": "Morning Coffee & Badge pickup",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
-          "from": "8:30",
-          "to": "9:30",
+          "from": "08:30",
+          "to": "09:30",
           "title": "Welcome & Housekeeping",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "09:40",
@@ -26,7 +28,8 @@
           "title": "COGNIGY: CEO Keynote",
           "description": "",
           "speaker": "Speaker: Philipp Heltewig, CEO @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "10:00",
@@ -34,7 +37,8 @@
           "title": "DHL: AI Agents at Scale Deliver Instant Customer Service on the Phone",
           "description": "",
           "speaker": "Speaker:  Jonathan Zaiß, Head of Digitalization for Customer Service & Denis Ziegenfuß, Senior IT Project Lead @DHL",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "10:30",
@@ -42,7 +46,8 @@
           "title": "SKODA: How AI is Revolutionizing our Call Center & CX on WebChat",
           "description": "",
           "speaker": "Speakers:  Dr. Petr Maršál, Customer Care Manager & Linda Vlková, Conversational AI Product Strategist  @Skoda",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "11:00",
@@ -50,7 +55,8 @@
           "title": "Networking, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "11:30",
@@ -58,7 +64,8 @@
           "title": "METRIGY: Research Insights on AI for Businesses and How to Maximize the Potential of Technology",
           "description": "",
           "speaker": "Speaker:  Beth Schultz, VP of Research @Metrigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "12:00",
@@ -66,7 +73,8 @@
           "title": "SANTANDER: Outbound Calling: How AI Agents Perform in Sales",
           "description": "",
           "speaker": "Speakers:  Vito Volpe, CEO & Felix Marel, Head of Product Management Loans @Santander Consumer Bank",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "12:30",
@@ -74,7 +82,8 @@
           "title": "FLIX: Agentic AI at Greyhound: Delivering Outstanding UX",
           "description": "",
           "speaker": "Speakers:  Anna Bredow, Senior UX/UI Designer & Vasily Rodochenko, Software Engineer @Flix",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "13:00",
@@ -82,7 +91,8 @@
           "title": "Networking Lunch, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "13:00",
@@ -90,7 +100,8 @@
           "title": "Digital Magician: Simon Pierro",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "14:30",
@@ -98,7 +109,8 @@
           "title": "COGNIGY: Product Keynote - The Next Era of AI Agents with Cognigy.AI",
           "description": "",
           "speaker": "Speakers: Thys Waanders, VP of Transformation & Sebastian Glock, Director of Product Marketing @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "15:20",
@@ -106,7 +118,8 @@
           "title": "Networking, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "15:50",
@@ -114,7 +127,8 @@
           "title": "PANEL: Allianz, Lufthansa Group, Schwarz Group, E.ON - Scaling AI in Customer Service",
           "description": "Moderator: Angela Read Downes, VP Customer Management @Cognigy",
           "speaker": "Speakers: Benno Schindler @Allianz, Nick Allgaier @Lufthansa Group, Christian Wuttke @Schwarz Group Karyna Neumann @E.ON",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "16:50",
@@ -122,7 +136,8 @@
           "title": "Cognigy Awards Ceremony",
           "description": "Celebrating Cognigy.AI Champions and their achievements with drinks and popcorn",
           "speaker": "Presenter: Matt Greenslade, Director Customer Success @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "17:30",
@@ -130,7 +145,8 @@
           "title": "Session Closing",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "17:45",
@@ -138,7 +154,8 @@
           "title": "Dinner, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "18:30",
@@ -146,15 +163,17 @@
           "title": "Casino Night",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         },
         {
           "from": "20:00",
-          "to": "1:00",
+          "to": "01:00",
           "title": "Afterparty with DJ Tony T",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-12"
         }
       ]
     },
@@ -163,19 +182,21 @@
       "sessions": [
         {
           "from": null,
-          "to": "9:00",
+          "to": "09:00",
           "title": "Morning Coffee, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
-          "from": "9:00",
+          "from": "09:00",
           "to": "09:50",
           "title": "Welcome Day 2",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "10:00",
@@ -183,7 +204,8 @@
           "title": "Opening Keynote",
           "description": "",
           "speaker": "Speaker: Benno Schindler, Lead Conversational AI Tribe @Allianz",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "10:30",
@@ -191,7 +213,8 @@
           "title": "PANEL: AI or Die? Fixing Broken Contact Center Strategies",
           "description": "Moderator: Jarrod Davis, Product Marketing Manager @Cognigy",
           "speaker": "Speakers: Stephan Schuessler @Deloitte, Sascha Wollenberg @Teleperformance, Gereon Hammel @Telekom, Kane Simms @VuxWorld, Victor Belfor @8x8, Jonathan Maher @Avaya, Mareike Hoffmann @Microsoft, Nicolas Ehrlacher @RingCentral",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "11:30",
@@ -199,7 +222,8 @@
           "title": "Vattenfall: Key Insights for Implementing – From Migration to Value Creation",
           "description": "",
           "speaker": "Speaker: Almar van der Stappen, Product Lead @Vattenfall",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "11:30",
@@ -207,7 +231,8 @@
           "title": "AWS Tech Session",
           "description": "",
           "speaker": "Speaker: John Mousa, Sr. Solutions Architect @AWS",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "12:00",
@@ -215,7 +240,8 @@
           "title": "Networking Lunch, Tech Labs & Expo Zone",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "13:00",
@@ -223,7 +249,8 @@
           "title": "DEEPGRAM: State-of-the-Art Voice Experiences",
           "description": "",
           "speaker": "Speaker: Natalie Rutgers, VP of Product @Deepgram",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "13:00",
@@ -231,7 +258,8 @@
           "title": "COGNIGY: From Silos to Synergy: Supercharge your Customer Contact Transformation",
           "description": "",
           "speaker": "Speaker: Angela Read Downes, VP Customer Management @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "13:30",
@@ -239,7 +267,8 @@
           "title": "BOSCH Power Tools: How Agent Copilot is Transforming Contact Centers with an AI-Augmented Workforce",
           "description": "",
           "speaker": "Speaker: Victor Nguyen, Project Lead GenAI in Business Operations @Bosch",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "13:30",
@@ -247,7 +276,8 @@
           "title": "Cognigy.AI Tech Session: Operating and Scaling Agentic AI",
           "description": "",
           "speaker": "Speaker: Benjamin Mayr, Chief Software Architect @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "14:00",
@@ -255,7 +285,8 @@
           "title": "NUUDAY: Exploring an Enterprise Roadmap to Customer Excellence",
           "description": "",
           "speaker": "Speaker: Oliver Snejbjerg, Director of Conversational AI @Nuuday",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "14:00",
@@ -263,7 +294,8 @@
           "title": "Demystifying Agentic Behavior & Mastering AI Agents",
           "description": "",
           "speaker": "Speaker: Sascha Wolter, Principal AI/HMI Advocate & Advisor @Cognigy",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "14:30",
@@ -271,7 +303,8 @@
           "title": "Networking",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "14:45",
@@ -279,7 +312,8 @@
           "title": "VuxWorld: The AI Playbook for Enterprise Contact Centers",
           "description": "",
           "speaker": "Speaker: Kane Simms, CEO and Founder @VuxWorld",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
           "from": "15:15",
@@ -287,15 +321,17 @@
           "title": "Session Closing",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         },
         {
-          "from": "15.30",
+          "from": "15:30",
           "to": "16:30",
           "title": "Open Networking with Coffee & Cake",
           "description": "",
           "speaker": "",
-          "location": ""
+          "location": "",
+          "eventDate": "2025-03-13"
         }
       ]
     }
