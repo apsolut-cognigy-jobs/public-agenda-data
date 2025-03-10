@@ -14,20 +14,20 @@
           "eventDate": "2025-03-12"
         },
         {
-          "from": "08:30",
-          "to": "09:30",
-          "title": "Welcome & Housekeeping",
+          "from": "09:30",
+          "to": "09:50",
+          "title": "COGNIGY: CEO Keynote",
           "description": "",
-          "speaker": "",
+          "speaker": "Speaker: Philipp Heltewig, CEO @Cognigy",
           "location": "",
           "eventDate": "2025-03-12"
         },
         {
-          "from": "09:40",
-          "to": "10:00",
-          "title": "COGNIGY: CEO Keynote",
+          "from": "09:50",
+          "to": "09:50",
+          "title": "A Warm Welcome from Your Moderator",
           "description": "",
-          "speaker": "Speaker: Philipp Heltewig, CEO @Cognigy",
+          "speaker": "",
           "location": "",
           "eventDate": "2025-03-12"
         },
@@ -221,7 +221,7 @@
           "to": "12:00",
           "title": "Vattenfall: Key Insights for Implementing – From Migration to Value Creation",
           "description": "",
-          "speaker": "Speaker: Almar van der Stappen, Product Lead and Tjeerd Schopman, Manager Automation & Conversational AI @Vattenfall",
+          "speaker": "Speakers: Almar van der Stappen, Product Lead and Tjeerd Schopman, Manager Automation & Conversational AI @Vattenfall",
           "location": "",
           "eventDate": "2025-03-13"
         },
